@@ -1,0 +1,78 @@
+.body{
+    background-color: white;
+    
+}
+.heading{
+    height:15vh;
+    
+    justify-content: center;
+    
+    display: flex;
+    color: red;
+}
+.wrapper{
+    
+    height: 80vh;
+    position: relative;
+}
+.picture{
+    
+    height: 80vh;
+    width: 90vh;
+    position: relative;
+    
+
+}
+.anh{
+    position: absolute;
+    right: 50%;
+    margin-right: -30vh;
+    top: 50%;
+    margin-top: -35vh;
+    
+    margin-left: -30vh;
+}
+
+.text{
+    position: absolute;
+    
+    height: 80vh;
+    width: 100vh;
+    left: -5%;
+    margin-left: 50%;
+
+   
+    transform: translateY(-100%);
+}
+.text--1{
+    line-height: 9px;
+    justify-items: center;
+    color: rgb(9, 9, 33);
+}
+.head1{
+    color: rgb(96, 240, 96);
+}
+.head2{
+    color: rgb(19, 19, 54);
+}
+.head3{
+    color: rgb(222, 128, 128);
+}
+.head4{
+    color: rgb(235, 75, 75);
+}
+.text--2{
+    line-height: 1.6em;
+}
+.blue{
+    color: blue;
+}
+.text--3{
+    justify-items: flex-end;
+    line-height: 9px;
+    color: rgb(9, 9, 33);
+}
+.text--4{
+    line-height: 0;
+    color: rgb(235, 75, 75);
+}
